@@ -1,0 +1,37 @@
+---
+- id: tf-fmt
+  name: Terraform fmt
+  entry: hooks/tf-fmt.sh
+  language: script
+  files: \.tf$
+  exclude: \.+.terraform\/.*$
+  require_serial: true
+
+- id: yamllint 
+  name: yamllint
+  entry: hooks/yamllint.sh
+  language: script
+  files: \.ya?ml$
+
+- id: gofmt
+  name: gofmt
+  entry: hooks/go-fmt.sh
+  language: script
+  files: \.go$
+  exclude: vendor\/.*$
+
+- id: shellcheck
+  name: Shellcheck
+  entry: hooks/shellcheck.sh
+  language: script
+  types:
+    - shell
+
+- id: conventional-commit
+  name: Conventional commit
+  entry: hooks/conventional-commit.sh
+  language: script
+  description: Check whether commit messages comply with the conventional commit format
+  always_run: true
+  stages:
+    - commit-msg

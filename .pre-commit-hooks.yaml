@@ -7,7 +7,15 @@
   exclude: \.+.terraform\/.*$
   require_serial: true
 
-- id: yamllint 
+- id: tf-validate
+  name: Terraform validation
+  entry: hooks/tf-validate.sh
+  language: script
+  files: \.tf$
+  exclude: \.+.terraform\/.*$
+  require_serial: true
+
+- id: yamllint
   name: yamllint
   entry: hooks/yamllint.sh
   language: script

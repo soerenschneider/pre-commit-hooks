@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://www.github.com/soerenschneider/pre-commit-hooks/compare/v1.1.0...v1.2.0) (2021-10-30)
+
+
+### Features
+
+* Add pylint hook ([16ba5c3](https://www.github.com/soerenschneider/pre-commit-hooks/commit/16ba5c3eddc0111bd967a4be05ade0e33d1ffc08))
+
 ## [1.1.0](https://www.github.com/soerenschneider/pre-commit-hooks/compare/v1.0.0...v1.1.0) (2021-10-18)
 
 

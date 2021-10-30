@@ -43,3 +43,9 @@
   always_run: true
   stages:
     - commit-msg
+
+- id: pylint
+  name: pylint
+  entry: hooks/pylint.sh
+  language: script
+  files: \.py$

@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.2.1](https://www.github.com/soerenschneider/pre-commit-hooks/compare/v1.2.0...v1.2.1) (2021-11-18)
+
+
+### Bug Fixes
+
+* Set x bit ([f07f825](https://www.github.com/soerenschneider/pre-commit-hooks/commit/f07f825469fb6f272668366214548a0278059bcf))
+
 ## [1.2.0](https://www.github.com/soerenschneider/pre-commit-hooks/compare/v1.1.0...v1.2.0) (2021-10-30)
 
 

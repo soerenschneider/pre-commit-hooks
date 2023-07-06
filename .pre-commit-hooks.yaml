@@ -30,7 +30,7 @@
 
 - id: golangci-lint
   name: golangci-lint
-  entry: golangci-lint run --timeout=5m
+  entry: hooks/golangci-lint.sh
   types: [go]
   language: script
   require_serial: true
@@ -38,7 +38,7 @@
 
 - id: go-unit-tests
   name: go unit tests
-  entry: go test -race ./...
+  entry: hooks/go-unit-tests.sh
   types: [go]
   language: script
   require_serial: true

@@ -28,6 +28,22 @@
   files: \.go$
   exclude: vendor\/.*$
 
+- id: golangci-lint
+  name: golangci-lint
+  entry: golangci-lint run --timeout=5m
+  types: [go]
+  language: golang
+  require_serial: true
+  pass_filenames: false
+
+- id: go-unit-tests
+  name: go unit tests
+  entry: go test -race ./...
+  types: [go]
+  language: golang
+  require_serial: true
+  pass_filenames: false
+
 - id: shellcheck
   name: Shellcheck
   entry: hooks/shellcheck.sh

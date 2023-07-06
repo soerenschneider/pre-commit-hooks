@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.3.3](https://www.github.com/soerenschneider/pre-commit-hooks/compare/v1.3.2...v1.3.3) (2023-07-06)
+
+
+### Bug Fixes
+
+* use inline commands again ([cb7b742](https://www.github.com/soerenschneider/pre-commit-hooks/commit/cb7b742764829364de3f78268bb907fa63c22db9))
+
 ### [1.3.2](https://www.github.com/soerenschneider/pre-commit-hooks/compare/v1.3.1...v1.3.2) (2023-07-06)
 
 

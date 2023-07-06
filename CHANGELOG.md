@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.3.1](https://www.github.com/soerenschneider/pre-commit-hooks/compare/v1.3.0...v1.3.1) (2023-07-06)
+
+
+### Bug Fixes
+
+* use dedicated hooks script ([1d85cfd](https://www.github.com/soerenschneider/pre-commit-hooks/commit/1d85cfd642b8302b89e156e86de694f4bf03e478))
+
 ## [1.3.0](https://www.github.com/soerenschneider/pre-commit-hooks/compare/v1.2.1...v1.3.0) (2023-07-06)
 
 

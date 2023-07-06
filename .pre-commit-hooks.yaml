@@ -32,7 +32,7 @@
   name: golangci-lint
   entry: hooks/golangci-lint.sh
   types: [go]
-  language: golang
+  language: script
   require_serial: true
   pass_filenames: true
 
@@ -40,7 +40,7 @@
   name: go unit tests
   entry: hooks/go-unit-tests.sh
   types: [go]
-  language: golang
+  language: script
   require_serial: true
   pass_filenames: false
 

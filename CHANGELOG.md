@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.3.4](https://www.github.com/soerenschneider/pre-commit-hooks/compare/v1.3.3...v1.3.4) (2023-07-06)
+
+
+### Bug Fixes
+
+* set x bit ([497afcd](https://www.github.com/soerenschneider/pre-commit-hooks/commit/497afcd108e24c45afc7b8fe23ff7d180bc02c9d))
+
 ### [1.3.3](https://www.github.com/soerenschneider/pre-commit-hooks/compare/v1.3.2...v1.3.3) (2023-07-06)
 
 

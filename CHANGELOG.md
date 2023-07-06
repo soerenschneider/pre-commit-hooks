@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.3.0](https://www.github.com/soerenschneider/pre-commit-hooks/compare/v1.2.1...v1.3.0) (2023-07-06)
+
+
+### Features
+
+* add golangci-lint and go-unit-tests hooks ([d963793](https://www.github.com/soerenschneider/pre-commit-hooks/commit/d9637932d0d4c1774631b322a1e06b8675a2cb1e))
+
+
+### Bug Fixes
+
+* rename hook gofmt to go-fmt ([68afae5](https://www.github.com/soerenschneider/pre-commit-hooks/commit/68afae52afe6a1df708dae5944b4d3be91964a00))
+
 ### [1.2.1](https://www.github.com/soerenschneider/pre-commit-hooks/compare/v1.2.0...v1.2.1) (2021-11-18)
 
 

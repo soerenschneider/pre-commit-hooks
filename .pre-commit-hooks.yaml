@@ -30,15 +30,15 @@
 
 - id: golangci-lint
   name: golangci-lint
-  entry: golangci-lint run --timeout=5m
+  entry: hooks/golangci-lint.sh
   types: [go]
   language: golang
   require_serial: true
-  pass_filenames: false
+  pass_filenames: true
 
 - id: go-unit-tests
   name: go unit tests
-  entry: go test -race ./...
+  entry: hooks/go-unit-tests.sh
   types: [go]
   language: golang
   require_serial: true
@@ -52,7 +52,7 @@
     - shell
 
 - id: conventional-commit
-  name: Conventional commit
+  name: Conventional commit checker
   entry: hooks/conventional-commit.sh
   language: script
   description: Check whether commit messages comply with the conventional commit format

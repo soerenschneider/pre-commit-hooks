@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.3.2](https://www.github.com/soerenschneider/pre-commit-hooks/compare/v1.3.1...v1.3.2) (2023-07-06)
+
+
+### Bug Fixes
+
+* change language ([3dcffc4](https://www.github.com/soerenschneider/pre-commit-hooks/commit/3dcffc45bcd4e2ed690e0e6cf9752f9bc8407c48))
+
 ### [1.3.1](https://www.github.com/soerenschneider/pre-commit-hooks/compare/v1.3.0...v1.3.1) (2023-07-06)
 
 

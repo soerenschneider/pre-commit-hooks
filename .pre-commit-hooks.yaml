@@ -21,7 +21,7 @@
   language: script
   files: \.ya?ml$
 
-- id: gofmt
+- id: go-fmt
   name: gofmt
   entry: hooks/go-fmt.sh
   language: script

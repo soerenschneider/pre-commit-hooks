@@ -25,6 +25,13 @@
   exclude: \.terraform\/.*$
   require_serial: true
 
+- id: trivy
+  name: trivy
+  description: Scans for misconfigurations, vulnerabilities and secrets.
+  require_serial: true
+  entry: hooks/trivy.sh
+  language: script
+
 - id: tf-validate
   name: Terraform validation
   entry: hooks/tf-validate.sh

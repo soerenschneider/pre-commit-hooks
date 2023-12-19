@@ -15,6 +15,16 @@
   files: \.tf$
   exclude: \.+.terraform\/.*$
 
+- id: terraform_checkov
+  name: checkov
+  description: Runs checkov on Terraform resourcecs
+  entry: hooks/tf_checkov.sh
+  language: script
+  always_run: false
+  files: \.tf$
+  exclude: \.terraform\/.*$
+  require_serial: true
+
 - id: tf-validate
   name: Terraform validation
   entry: hooks/tf-validate.sh

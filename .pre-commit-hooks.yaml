@@ -7,6 +7,14 @@
   exclude: \.+.terraform\/.*$
   require_serial: true
 
+- id: tflint
+  name: tflint
+  description: Linter for Terraform source code
+  entry: hooks/tflint.sh
+  language: script
+  files: \.tf$
+  exclude: \.+.terraform\/.*$
+
 - id: tf-validate
   name: Terraform validation
   entry: hooks/tf-validate.sh

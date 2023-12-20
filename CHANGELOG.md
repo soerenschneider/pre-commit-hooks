@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.4.2](https://www.github.com/soerenschneider/pre-commit-hooks/compare/v1.4.1...v1.4.2) (2023-12-20)
+
+
+### Bug Fixes
+
+* add missing file ([8393137](https://www.github.com/soerenschneider/pre-commit-hooks/commit/83931375f9fa2816d63c8d69e671238ca6f9b724))
+
 ### [1.4.1](https://www.github.com/soerenschneider/pre-commit-hooks/compare/v1.4.0...v1.4.1) (2023-12-20)
 
 

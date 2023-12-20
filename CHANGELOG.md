@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.4.0](https://www.github.com/soerenschneider/pre-commit-hooks/compare/v1.3.4...v1.4.0) (2023-12-20)
+
+
+### Features
+
+* add hook for checkov ([8930115](https://www.github.com/soerenschneider/pre-commit-hooks/commit/8930115c6dd5d2bcc216cc79150089010f9dab64))
+* add tflint hook ([c224857](https://www.github.com/soerenschneider/pre-commit-hooks/commit/c224857d82e5912322b03b7951621804f92dbf76))
+* add trivy ([c3a641f](https://www.github.com/soerenschneider/pre-commit-hooks/commit/c3a641f7364454aa29a1698530bea882ac64515b))
+
 ### [1.3.4](https://www.github.com/soerenschneider/pre-commit-hooks/compare/v1.3.3...v1.3.4) (2023-07-06)
 
 

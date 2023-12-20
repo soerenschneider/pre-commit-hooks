@@ -15,7 +15,7 @@
   files: \.tf$
   exclude: \.+.terraform\/.*$
 
-- id: terraform_checkov
+- id: tf-checkov
   name: checkov
   description: Runs checkov on Terraform resourcecs
   entry: hooks/tf_checkov.sh

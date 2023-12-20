@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.4.1](https://www.github.com/soerenschneider/pre-commit-hooks/compare/v1.4.0...v1.4.1) (2023-12-20)
+
+
+### Bug Fixes
+
+* set executable bit ([142f2de](https://www.github.com/soerenschneider/pre-commit-hooks/commit/142f2de19220276a58b57e253420b630fb29a2e8))
+
 ## [1.4.0](https://www.github.com/soerenschneider/pre-commit-hooks/compare/v1.3.4...v1.4.0) (2023-12-20)
 
 

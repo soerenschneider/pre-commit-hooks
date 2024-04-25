@@ -45,6 +45,7 @@
   entry: hooks/yamllint.sh
   language: script
   files: \.ya?ml$
+  require_serial: true
 
 - id: go-fmt
   name: gofmt

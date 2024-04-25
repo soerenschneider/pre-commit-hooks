@@ -7,6 +7,13 @@
 
 * fix yamllint reporting the same files multiple times ([4e96163](https://www.github.com/soerenschneider/pre-commit-hooks/commit/4e961634f0fb6f572f9710685778d43f46d39450))
 
+### [1.4.3](https://www.github.com/soerenschneider/pre-commit-hooks/compare/v1.4.2...v1.4.3) (2024-04-25)
+
+
+### Bug Fixes
+
+* fix yamllint reporting the same files multiple times ([4e96163](https://www.github.com/soerenschneider/pre-commit-hooks/commit/4e961634f0fb6f572f9710685778d43f46d39450))
+
 ### [1.4.2](https://www.github.com/soerenschneider/pre-commit-hooks/compare/v1.4.1...v1.4.2) (2023-12-20)
 
 

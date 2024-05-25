@@ -91,3 +91,10 @@
   entry: hooks/pylint.sh
   language: script
   files: \.py$
+
+- id: "gitleaks"
+  name: "Detect hardcoded secrets"
+  description: "Detect hardcoded secrets using Gitleaks"
+  entry: "gitleaks protect --verbose --redact --staged"
+  language: "script"
+  pass_filenames: false

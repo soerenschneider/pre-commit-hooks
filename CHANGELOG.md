@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.0](https://github.com/soerenschneider/pre-commit-hooks/compare/v1.4.3...v1.5.0) (2024-05-25)
+
+
+### Features
+
+* add gitleaks ([aec78b6](https://github.com/soerenschneider/pre-commit-hooks/commit/aec78b6621186a58c2fac332a4aceaa73edf0775))
+
 ### [1.4.3](https://www.github.com/soerenschneider/pre-commit-hooks/compare/v1.4.2...v1.4.3) (2024-04-25)
 
 

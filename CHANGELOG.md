@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.1](https://github.com/soerenschneider/pre-commit-hooks/compare/v1.5.0...v1.5.1) (2024-05-25)
+
+
+### Bug Fixes
+
+* gitleaks hook ([6ba9280](https://github.com/soerenschneider/pre-commit-hooks/commit/6ba9280f681bccd94e0c1abdc6eae2f5381f0310))
+
 ## [1.5.0](https://github.com/soerenschneider/pre-commit-hooks/compare/v1.4.3...v1.5.0) (2024-05-25)
 
 

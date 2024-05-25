@@ -95,6 +95,6 @@
 - id: "gitleaks"
   name: "Detect hardcoded secrets"
   description: "Detect hardcoded secrets using Gitleaks"
-  entry: "gitleaks protect --verbose --redact --staged"
+  entry: "hooks/gitleaks.sh"
   language: "script"
   pass_filenames: false

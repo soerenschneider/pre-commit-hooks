@@ -11,8 +11,14 @@ export PATH=$PATH:/usr/local/bin
 # Store and return last failure from fmt so this can validate every directory passed before exiting
 FMT_ERROR=0
 
+# Check if OpenTofu is available, otherwise fall back to Terraform
+TOOL="tofu"
+if ! command -v ${TOOL} &> /dev/null; then
+  TOOL="terraform"
+fi
+
 for file in "$@"; do
-  terraform fmt -diff -check "$file" || FMT_ERROR=$?
+  ${TOOL} fmt -diff -check "${file}" || FMT_ERROR=$?
 done
 
 # reset path to the original value

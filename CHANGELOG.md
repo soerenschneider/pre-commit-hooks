@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.2](https://github.com/soerenschneider/pre-commit-hooks/compare/v1.5.1...v1.5.2) (2024-10-12)
+
+
+### Bug Fixes
+
+* use opentofu by default, fall back to terraform ([6e7b3b2](https://github.com/soerenschneider/pre-commit-hooks/commit/6e7b3b21b7bc06f8e583e639873284195abddbc4))
+
 ## [1.5.1](https://github.com/soerenschneider/pre-commit-hooks/compare/v1.5.0...v1.5.1) (2024-05-25)
 
 

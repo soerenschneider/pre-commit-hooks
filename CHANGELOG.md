@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.1](https://github.com/soerenschneider/pre-commit-hooks/compare/v1.6.0...v1.6.1) (2026-06-19)
+
+
+### Bug Fixes
+
+* add missing keyword 'language' ([f3ca1b4](https://github.com/soerenschneider/pre-commit-hooks/commit/f3ca1b4e5306a5adce3b3e302649b261d91f04f7))
+
 ## [1.6.0](https://github.com/soerenschneider/pre-commit-hooks/compare/v1.5.2...v1.6.0) (2026-06-19)
 
 

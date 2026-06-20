@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.2](https://github.com/soerenschneider/pre-commit-hooks/compare/v1.6.1...v1.6.2) (2026-06-20)
+
+
+### Bug Fixes
+
+* set args ([a447356](https://github.com/soerenschneider/pre-commit-hooks/commit/a447356c4dbfd08769b1ac2d9b3904e7302c33c7))
+
 ## [1.6.1](https://github.com/soerenschneider/pre-commit-hooks/compare/v1.6.0...v1.6.1) (2026-06-19)
 
 

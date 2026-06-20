@@ -3,7 +3,9 @@
   name: ansible-lint
   description: This hook runs ansible-lint.
   entry: ansible-lint 
-  args: -v --force-color
+  args:
+    - -v
+    - --force-color
   language: system
   # do not pass files to ansible-lint, see:
   # https://github.com/ansible/ansible-lint/issues/611

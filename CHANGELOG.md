@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.3](https://github.com/soerenschneider/pre-commit-hooks/compare/v1.6.2...v1.6.3) (2026-06-20)
+
+
+### Bug Fixes
+
+* define args as array ([911f2d3](https://github.com/soerenschneider/pre-commit-hooks/commit/911f2d3c9fb43042514e9bc110e2bc292c8b4b56))
+
 ## [1.6.2](https://github.com/soerenschneider/pre-commit-hooks/compare/v1.6.1...v1.6.2) (2026-06-20)
 
 

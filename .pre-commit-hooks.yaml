@@ -41,9 +41,11 @@
 - id: trivy
   name: trivy
   description: Scans for misconfigurations, vulnerabilities and secrets.
-  require_serial: true
   entry: hooks/trivy.sh
   language: script
+  pass_filenames: false
+  args:
+    - --scanners=vuln,misconfig,secret
 
 - id: tf-validate
   name: Terraform validation

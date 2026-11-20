@@ -1,16 +1,10 @@
 ---
 - id: ansible-lint
   name: ansible-lint
-  description: This hook runs ansible-lint.
-  entry: ansible-lint 
-  args:
-    - -v
-    - --force-color
-  language: system
-  # do not pass files to ansible-lint, see:
-  # https://github.com/ansible/ansible-lint/issues/611
-  pass_filenames: false
-  always_run: true
+  description: Runs ansible-lint once in every ansible project with changed files.
+  entry: hooks/ansible-lint.sh
+  language: script
+  require_serial: true
 
 - id: tf-fmt
   name: Terraform fmt

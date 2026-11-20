@@ -4,3 +4,4 @@ pre-commit-init:
 
 test:
 	./tests/conventional-commit_test.sh
+	./tests/ansible-lint_test.sh

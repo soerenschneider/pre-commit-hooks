@@ -1,5 +1,20 @@
 # Changelog
 
+## [2.0.0](https://github.com/soerenschneider/pre-commit-hooks/compare/v1.6.3...v2.0.0) (2026-11-14)
+
+
+### ⚠ BREAKING CHANGES
+
+* **trivy:** pass trivy flags directly instead of via --args=...
+* **tf-checkov:** use `args: [--quiet]` instead of `args: [--args=--quiet]`
+
+### Bug Fixes
+
+* **conventional-commit:** improve regex to accept more valid messages and skip git-generated ones ([8a9582a](https://github.com/soerenschneider/pre-commit-hooks/commit/8a9582a671dbefc6d92e79c67967f90ce3740e84))
+* **tf-checkov:** pass args directly to checkov ([1390bba](https://github.com/soerenschneider/pre-commit-hooks/commit/1390bbab101dd3f87462e0a417fc7c63b426e2a3))
+* **trivy:** scan repo once and pass args directly to trivy ([8c37a9a](https://github.com/soerenschneider/pre-commit-hooks/commit/8c37a9a76c1f528399bb28ef355003e67fedd48a))
+* **yamllint:** lint only the files passed by pre-commit ([004136a](https://github.com/soerenschneider/pre-commit-hooks/commit/004136ab82f12c9f539ef72fcaf720927892149d))
+
 ## [1.6.3](https://github.com/soerenschneider/pre-commit-hooks/compare/v1.6.2...v1.6.3) (2026-06-20)
 
 

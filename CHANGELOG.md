@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.1.0](https://github.com/soerenschneider/pre-commit-hooks/compare/v2.0.0...v2.1.0) (2026-11-20)
+
+
+### Features
+
+* **ansible-lint:** lint each changed project from its own directory ([28ed738](https://github.com/soerenschneider/pre-commit-hooks/commit/28ed7382c17c2749e782896cc927295da7829138))
+* **ansible-lint:** lint each changed project from its own directory ([0984b44](https://github.com/soerenschneider/pre-commit-hooks/commit/0984b442c0e4e54728a6abef6be70853d02d8335))
+
 ## [2.0.0](https://github.com/soerenschneider/pre-commit-hooks/compare/v1.6.3...v2.0.0) (2026-11-14)
 
 
